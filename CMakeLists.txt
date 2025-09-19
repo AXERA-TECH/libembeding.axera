@@ -42,6 +42,7 @@ function(build_test test_name)
 endfunction()
 
 build_test(test_tokenizer)
+build_test(test_tokenizer_v2)
 build_test(test_embeding)
 build_test(test_api)
 
